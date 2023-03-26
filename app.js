@@ -40,7 +40,7 @@ app.post("/", function(req, res) {
 
     const options = {
         method: "POST",
-        auth: "Amb:a6c3f89161a7c656989113770468fa0a0-us21"
+        auth: "Amb:6c3f89161a7c656989113770468fa0a0-us21"
     }
 
     const request =https.request(url, options, function(response) {
